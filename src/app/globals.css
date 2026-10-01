@@ -1,5 +1,4 @@
 @tailwind base;@tailwind components;@tailwind utilities;
-:root{--gold:#f2b705;--gold2:#ffd966;--ink:#07090f;--navy:#0b1f4d;--blue:#2f6bff;--cream:#fff8e6;--r:110px}
 html{scroll-behavior:smooth}
 body{font-family:'Poppins',system-ui,sans-serif;color:#1b2233;background:#fff;overflow-x:hidden;line-height:1.6}
 img{max-width:100%;display:block}a{text-decoration:none;color:inherit}
@@ -110,3 +109,9 @@ header{width:100%;max-width:100vw;left:0;right:0}header>a img{height:58px;width:
 body{font-family:var(--f-body),system-ui,sans-serif}
 h1,h2,h3,.write{font-family:var(--f-head),Georgia,serif}h3{font-size:1.25rem}
 .write{font-style:italic}.fm button{width:100%}
+
+/* RC registration number beside logo */
+header>a.brand{display:flex;align-items:center;gap:10px}
+.rc{color:var(--gold);font-weight:600;letter-spacing:.06em;font-size:.8rem;white-space:nowrap}
+footer p.rc{margin-bottom:6px;opacity:1}
+@media(max-width:420px){.rc{font-size:.68rem}}

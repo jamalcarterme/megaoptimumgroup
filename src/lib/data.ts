@@ -50,9 +50,10 @@ export const services:Service[]=[
   "name": "Real Estate",
   "icon": "🏢",
   "tagline": "Find, buy, sell and manage with confidence",
-  "desc": "Property sales, rentals, management and consultancy across Lagos and beyond.",
+  "desc": "Property sales, rentals, build & sell / property development, management and consultancy across Lagos and beyond.",
   "points": [
    "Property sales & rentals",
+   "Build & Sell / Property Development",
    "Property management",
    "Land sourcing & verification",
    "Investment advisory"
@@ -99,7 +100,8 @@ export const services:Service[]=[
    "Engine diagnostics & repair",
    "Routine servicing",
    "Fleet maintenance",
-   "Spare parts supply"
+   "Spare parts supply",
+   "Buy, Sell & Swap Vehicles"
   ],
   "tiers": [
    {
@@ -141,6 +143,10 @@ export const services:Service[]=[
   "desc": "Custom metal fabrication and wood construction for homes, industry and commerce.",
   "points": [
    "Gates, railings & frames",
+   "Filling station underground tanks",
+   "Overhead tanks",
+   "Iron gates & iron protectors",
+   "Related metal works",
    "Industrial fabrication",
    "Custom wood works",
    "On-site welding"
