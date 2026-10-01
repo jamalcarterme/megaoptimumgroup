@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
-export const NAV: [string, string][] = [['/', 'Home'], ['/about', 'About'], ['/services', 'Services'], ['/packages', 'Packages'], ['/contact', 'Contact']]
+import { NAV } from '@/lib/data'
 export default function Header() {
   const path = usePathname()
   const [open, setOpen] = useState(false)

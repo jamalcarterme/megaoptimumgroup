@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { services, site } from '@/lib/data'
-import { NAV } from './Header'
+import { services, site, NAV } from '@/lib/data'
 export default function Footer() {
   return (
     <footer>

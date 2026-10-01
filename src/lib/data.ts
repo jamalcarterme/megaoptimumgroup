@@ -355,3 +355,5 @@ export const services:Service[]=[
 ]
 export const site={phone:'08039295071',wa:'2348039295071',email:'nwakubajerry@gmail.com',address:'No 4 Ajosa Otunba Street, Ilasan, Ikate, Lekki, Lagos',ceo:'Engr Jerry Nwakuba'}
 export const bySlug=(s:string)=>services.find(x=>x.slug===s)!
+
+export const NAV:[string,string][]=[['/','Home'],['/about','About'],['/services','Services'],['/packages','Packages'],['/contact','Contact']]
