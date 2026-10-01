@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${body.variable} ${head.variable}`}>
       <body>
-        <div id="pre"><Image src="/img/logo.png" alt="" width={150} height={195} priority /><i /></div>
+        <div id="pre"><Image src="/img/logo-emblem.png" alt="" width={273} height={358} priority /><i /></div>
         <Header />
         <main>{children}</main>
         <Footer />

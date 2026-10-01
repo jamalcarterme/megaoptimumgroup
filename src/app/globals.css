@@ -147,3 +147,18 @@ nav{margin-left:auto}
  header>a.brand img{height:46px}
  #wa{left:10px;bottom:16px}
 }
+
+/* ---- brand lockup: emblem + real text name + RC ---- */
+header>a.brand img{height:54px;width:auto;flex-shrink:0}
+.bn{display:flex;flex-direction:column;line-height:1.15;min-width:0}
+.bn b{color:#fff;font-family:var(--f-body),system-ui,sans-serif;font-weight:700;font-size:1rem;letter-spacing:.08em;white-space:nowrap}
+.bn b em{font-style:normal;color:var(--gold)}
+.bn small{color:#e8ecf7;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+.bn .rc{margin-top:2px;font-size:.72rem}
+#pre img{width:auto;height:150px}
+footer .brand.ft{display:flex;align-items:center;gap:12px;margin-bottom:12px;opacity:1}
+footer .brand.ft img{height:70px;width:auto;margin:0}
+footer .brand.ft .bn b{font-size:1.05rem}
+@media(max-width:1000px){.bn small{display:none}}
+@media(max-width:560px){header>a.brand img{height:42px}.bn b{font-size:.78rem;letter-spacing:.04em}.bn .rc{font-size:.65rem}}
+@media(max-width:380px){.bn b em{display:none}}

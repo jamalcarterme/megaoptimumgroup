@@ -21,7 +21,7 @@ export default function Header() {
   const on = (h: string) => (h === '/' ? path === '/' : path.startsWith(h))
   return (
     <header className={sc ? 'sc' : ''}>
-      <Link href="/" className="brand"><Image src="/img/logo.png" alt="MEGAOPTIMUM" width={58} height={76} priority /><span className="rc">RC: 1294422</span></Link>
+      <Link href="/" className="brand"><Image src="/img/logo-emblem.png" alt="MEGAOPTIMUM Group logo" width={273} height={358} priority /><span className="bn"><b>MEGAOPTIMUM <em>Group</em></b><small>Multi-Investment Ltd.</small><span className="rc">RC: 1294422</span></span></Link>
       <button id="bg" aria-label="menu" onClick={() => setOpen(o => !o)}>{open ? '✕' : '☰'}</button>
       <nav className={open ? 'o' : ''}>
         {NAV.map(([h, t]) => <Link key={h} href={h} className={on(h) ? 'on' : ''}>{t}</Link>)}
